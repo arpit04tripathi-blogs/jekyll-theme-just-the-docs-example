@@ -35,6 +35,7 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Aux links for the upper right navigation
+aux_links_new_tab: true
 aux_links:
   "JTD GitHub":
     - "//github.com/just-the-docs/just-the-docs"
