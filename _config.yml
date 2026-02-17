@@ -56,7 +56,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Build settings
-theme: minima
+# theme: minima
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
