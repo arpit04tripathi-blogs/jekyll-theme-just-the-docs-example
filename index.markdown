@@ -4,6 +4,7 @@
 
 layout: home
 title: Home
+nav_order: 1
 ---
 
 This is an example of theme [just-the-docs](https://github.com/just-the-docs/just-the-docs){:target="_blank"}
