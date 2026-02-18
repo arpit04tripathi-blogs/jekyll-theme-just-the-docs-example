@@ -80,6 +80,8 @@ just_the_docs:
     posts:
       name: Default Posts
 
+author: arpit tripathi
+
 # Build settings
 # theme: minima
 remote_theme: just-the-docs/just-the-docs
