@@ -24,4 +24,16 @@ permalink: /callouts
 
 ## Nested Callouts
 
+{: .important }
+> Adding a warning below
+> 
+> {: .warning }
+> A paragraph
+
+## Indented Callouts
+
+> {: .highlight}
+  A paragraph
+
+
 ## Custom Callouts
