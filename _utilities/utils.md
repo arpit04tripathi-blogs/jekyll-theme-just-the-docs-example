@@ -44,4 +44,20 @@ Flex
 Floar Right
 {: .float-right}
 
+## Buttons
 
+[Link button](#){: .btn }
+
+[Link button](#){: .btn .btn-purple }
+[Link button](#){: .btn .btn-blue }
+[Link button](#){: .btn .btn-green }
+
+[Link button](#){: .btn .btn-outline }
+
+<span class="fs-8">
+[Link button](#){: .btn }
+</span>
+
+<span class="fs-3">
+[Tiny ass button](#){: .btn }
+</span>
