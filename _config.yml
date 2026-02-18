@@ -80,6 +80,25 @@ just_the_docs:
     posts:
       name: Default Posts
 
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+  pink:
+    title: Pink
+    color: pink
+
 # Build settings
 # theme: minima
 remote_theme: just-the-docs/just-the-docs
