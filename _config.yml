@@ -95,6 +95,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  pink:
+    title: Pink
+    color: pink
 
 # Build settings
 # theme: minima

@@ -37,3 +37,8 @@ permalink: /callouts
 
 
 ## Custom Callouts
+
+{: .pink-title }
+> Pink title
+> 
+> Custom callout
