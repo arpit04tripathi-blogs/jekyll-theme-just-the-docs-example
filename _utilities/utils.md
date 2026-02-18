@@ -61,3 +61,23 @@ Floar Right
 <span class="fs-3">
 [Tiny ass button](#){: .btn }
 </span>
+
+## Labels
+
+Default label
+{: .label }
+
+Blue label
+{: .label .label-blue }
+
+Stable
+{: .label .label-green }
+
+New release
+{: .label .label-purple }
+
+Coming soon
+{: .label .label-yellow }
+
+Deprecated
+{: .label .label-red }
