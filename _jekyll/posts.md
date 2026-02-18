@@ -1,19 +1,17 @@
 ---
-layout: post
+layout: page
 title: Posts
-date:   2026-02-18 16:00:55 -0600
 permalink: /posts
-categories: jekyll posts
-tags: tag-1 tag-2
 ---
 
 This lists all posts
 
-<h1>POSTS</h1>
-<ul>
-    {% for post in site.posts %}
-      <li>
-        {{ post.date | date: "%-d %B %Y" }} : <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
-      </li>
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+  <h3>{{ year.name }}</h3>
+  <ul>
+    {% for post in year.items %}
+      <li>{{ post.date | date: "%-d %b %Y" }} &emsp;&emsp; <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-</ul>
+  </ul>
+{% endfor %}
