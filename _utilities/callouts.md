@@ -12,7 +12,6 @@ permalink: /callouts
 
 ## Default Callouts
 
-
 {: .warning-title }
 > Warning Title
 > 
