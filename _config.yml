@@ -55,6 +55,31 @@ nav_external_links:
 back_to_top: true
 back_to_top_text: "Back to top"
 
+collections:
+  child-nav:
+    # _child-nav folder
+    output: true
+  code-mermaid:
+    output: true
+  utilities:
+    output: true
+  posts:
+    output: true
+
+just_the_docs:
+  collections:
+    child-nav:
+      name: Child Nav
+      nav_exclude: false
+      nav_fold: false
+      search_exclude: false
+    code-mermaid:
+      name: Code & Mermaid
+    utilities:
+      name: Utilities
+    posts:
+      name: Default Posts
+
 # Build settings
 # theme: minima
 remote_theme: just-the-docs/just-the-docs
