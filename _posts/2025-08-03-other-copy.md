@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2026-02-11 16:00:55 -0600
-categories: jekyll update
+title:  "Other 2"
+date:   2025-08-03 16:00:55 -0600
+categories: jekyll copy
 tags: tag-1 tag-2
 ---
 

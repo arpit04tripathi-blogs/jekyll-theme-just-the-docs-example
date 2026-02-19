@@ -65,6 +65,8 @@ collections:
     output: true
   posts:
     output: true
+  jekyll:
+    output: true
 
 just_the_docs:
   collections:
@@ -79,6 +81,8 @@ just_the_docs:
       name: Utilities
     posts:
       name: Default Posts
+    jekyll:
+      name: Jekyll
 
 callouts:
   highlight:
@@ -103,6 +107,16 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.1.3"
+
+# For copy button on code
+enable_copy_code_button: false
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+compress_html:
+  ignore:
+    envs: all
 
 # Build settings
 # theme: minima
