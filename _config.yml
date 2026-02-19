@@ -99,6 +99,11 @@ callouts:
     title: Pink
     color: pink
 
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
+
 # Build settings
 # theme: minima
 remote_theme: just-the-docs/just-the-docs
