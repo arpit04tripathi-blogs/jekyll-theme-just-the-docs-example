@@ -99,6 +99,16 @@ callouts:
     title: Pink
     color: pink
 
+# For copy button on code
+enable_copy_code_button: false
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+compress_html:
+  ignore:
+    envs: all
+
 # Build settings
 # theme: minima
 remote_theme: just-the-docs/just-the-docs
