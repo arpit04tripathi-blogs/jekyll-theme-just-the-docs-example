@@ -84,8 +84,6 @@ just_the_docs:
     jekyll:
       name: Jekyll
 
-author: arpit tripathi
-
 callouts:
   highlight:
     color: yellow
