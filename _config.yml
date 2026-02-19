@@ -104,7 +104,10 @@ enable_copy_code_button: false
 kramdown:
   syntax_highlighter_opts:
     block:
-      line_numbers: false
+      line_numbers: true
+compress_html:
+  ignore:
+    envs: all
 
 # Build settings
 # theme: minima
