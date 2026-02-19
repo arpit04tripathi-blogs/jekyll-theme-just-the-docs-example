@@ -37,6 +37,7 @@ case $1 in
   stop)
     banner "docker compose down"
     docker compose -f ./docker/docker-compose.yml down
+    rm -r _site
     ;;
   kill)
     # echo $(netstat -vanp tcp | grep 9999)
